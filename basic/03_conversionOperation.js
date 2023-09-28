@@ -22,3 +22,23 @@ console.log(booleanisLoogedIn);
 let someNumber = 33;
 let stringNumber = String(someNumber);
 console.log(typeof stringNumber);
+
+// ********************opeerations*******************************
+let value = 3;
+let negValue = -3;
+console.log(negValue);
+ 
+let str1 = "hello"
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**4);
+// console.log(2/3);
+// console.log(2%3);
+
+// console.log("1" + 2 + 2); 
+// console.log(1+1+"2");
+
+// console.log(+true)
+
+// increment pre and post read from mdn docs or tc39 
