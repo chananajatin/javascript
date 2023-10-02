@@ -20,9 +20,9 @@ console.log(instructor);
 // niche jo btaya hai vo json hai 
 // api
 {
-       "name" : "jatin",
-       "coursename" : "js in hindi",
-       "price" : "free"
-}
+//        "name" : "jatin",
+//        "coursename" : "js in hindi",
+//        "price" : "free"
+// }
 
 // api array of object me bhi mil skta hai
