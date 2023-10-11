@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dom learning</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <div class = "parent">
+        <div class="day">monday</div>
+        <div class="day">tuesday</div>
+        <div class="day">wednesday</div>
+        <div class="day">thrusday</div> 
+    </div>
+    
+</body>
+<script>
+    const parent = document.querySelector('.parent')
+    // console.log(parent);
+    // console.log(parent.children);
+    // console.log(parent.children[1].innerHTML);
+    // for(let i=0;i<parent.children.length;i++)
+    // {
+    //     console.log(parent.children[i].innerHTML);
+    // }
+    parent.children[1].style.color = "orange"  // children ek important property hai
+    console.log(parent.firstElementChild);  // children ki property hai ye
+    console.log(parent.lastElementChild); 
+    const dayone = document.querySelector('.day')
+    console.log(dayone);
+    console.log(dayone.parentElement);
+    console.log(dayone.nextElementSibling); //give next sibling
+
+    console.log("NODES : ",parent.childNodes );
+    
+
+</script>
+</html>
