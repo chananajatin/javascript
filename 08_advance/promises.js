@@ -46,7 +46,7 @@ const promiseFour = new Promise(function(resolve, reject){
  .then((user) => {
     console.log(user);
     return user.username
-}).then((username) => {
+}).then((username) => {  // important 
     console.log(username);
 }).catch(function(error){
     console.log(error);
